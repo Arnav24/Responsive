@@ -34,13 +34,14 @@ body{
 	margin-left: 50px;
 }
 .menu-icon{
-	filter: invert(50%);
+	filter: invert(90%);
 	width: 25px;
 	cursor: pointer;
 	display: none;
 }
 .search{
 	position: relative;
+	display: block;
 	width: px;
 	cursor: pointer;
 	margin: 20px;
@@ -197,7 +198,7 @@ text-decoration: none;
 	#menuList{
 		overflow: hidden;
 		transition: 0.5s;
-		width: 50%;
+		width: 75%;
 	}
 	.row{
 		flex-direction: column-reverse;
@@ -206,6 +207,7 @@ text-decoration: none;
 	}
 
 	.row .col-1 h1{
+		font-size: 30px;
 		color:#A7FF83;
 	}
 	.row .live h2{
@@ -215,6 +217,15 @@ text-decoration: none;
 	.row .live2 h4{
 		font-size: 10px;
 		margin-right: 5px;
+	}
+	.navbar.search img{
+		display: none;
+	}
+	button{
+		display: none
+	}
+	.search img{
+		display: none;
 	}
 
 }
