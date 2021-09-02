@@ -227,7 +227,7 @@ text-decoration: none;
 	.navbar.search img{
 		display: none;
 	}
-	button{
+	.navbar button{
 		display: none
 	}
 	.search img{
