@@ -9,6 +9,7 @@ body{
   background-image: url(background1.jpg);
 	background-repeat: no-repeat;
 	background-color:#11021F;
+
 	
 }
 .container{
@@ -177,11 +178,14 @@ text-decoration: none;
 		border-radius: 20px;
 		position: absolute;
 		top:75px;
-		right: 0;
+		left: 0;
 		z-index: 2;
 
 	}
 	nav ul li{
+		margin-left: 20px;
+		margin-bottom: 20px;
+		text-align: left;
 		display: block;
 		margin-top: 10px;
 		margin-bottom: 10px;
@@ -193,6 +197,8 @@ text-decoration: none;
 		color:white;
 	}
 	.menu-icon{
+		position: absolute;
+
 		display: block;
 	}
 	#menuList{
@@ -227,5 +233,7 @@ text-decoration: none;
 	.search img{
 		display: none;
 	}
-
+	body{
+		background-size:200%;
+	}
 }
