@@ -6,9 +6,9 @@
 
 }
 body{
-  background-image: url(background1.jpg);
+  background-image: url(background.png);
 	background-repeat: no-repeat;
-	background-color:#11021F;
+	background-color:#071A52;
 
 	
 }
@@ -234,6 +234,6 @@ text-decoration: none;
 		display: none;
 	}
 	body{
-		background-size:170%;
+		background-size:130%;
 	}
 }
